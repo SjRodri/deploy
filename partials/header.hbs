@@ -1,0 +1,20 @@
+<header>
+    <div class="container">
+        <section class="branding">
+            <img src="https://picsum.photos/id/20/32/32" alt="Logo" class="logo">
+            <h1>Succulent Miracle Spray</h1>
+        </section>
+        <nav>
+            <ul>
+                {{#each nav}}
+                    <li><a href="%BASE_URL%{{uri}}">{{label}}</a></li>
+                {{/each}}
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </div>
+</header>

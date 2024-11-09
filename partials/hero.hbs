@@ -1,0 +1,11 @@
+<section class="hero">
+    <picture>
+        <source srcset="{{hero.sImgUrl}}" media="(min-width:1025px)" />
+        <source srcset="{{hero.mImgUrl}}" media="(min-width:720px)" />
+        <img src="{{hero.lImgUrl}}" alt="hero panel img" />
+    </picture>
+    <div class="container">
+        <h2>{{hero.heroTitle}}</h2>
+        {{{hero.body}}}
+    </div>
+</section>

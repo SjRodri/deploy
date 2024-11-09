@@ -1,0 +1,14 @@
+<section class="testimonials">
+    {{#each testimonios}}
+        <div class="testimonial">
+            <div class="testimonial-photo">
+                <img src="{{photo}}" alt="Photo of {{name}}">
+            </div>
+            <div class="testimonial-content">
+                <p class="testimonial-quote">"{{quote}}"</p>
+                <p class="testimonial-name">{{name}}</p>
+                <p class="testimonial-location">{{location}}</p>
+            </div>
+        </div>
+    {{/each}}
+</section>

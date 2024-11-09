@@ -1,0 +1,26 @@
+footer {
+    background-color: @primary-background-color;
+    color:@primary-text-color;
+    .container{
+        display:flex;
+        justify-content: space-between;
+        max-width: @breakResolutions[widescreen];
+        align-items: flex-start;
+        margin:0px auto;
+        ul{
+            list-style: none;
+            margin:0px;
+            padding:0px;
+            display: flex;
+            flex-direction: column;
+            li {
+                a {
+                    text-decoration: none;
+                    color:@primary-text-color;
+                    display: inline-block;
+                    padding:0.5rem 0.8rem
+                }
+            }
+        }
+    }
+}
